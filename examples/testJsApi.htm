@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+        window.addEventListener("message", function (event)
+        {
+            //document.getElementById("logs").value += event.data + "\n";
+            console.log(event.data);
+        }, false);
+    </script>
+    <script type="text/javascript" src="http://t3cdn.tictacti.com/engine/js/main.js"></script>
+</head>
+<body style="margin:0 0 0 0;padding:0 0 0 0">
+    <!--<textarea id="logs" name="logs" style="width:500px;height:300px" rows="5" cols="100" ></textarea>-->
+    <div id="tttAd"></div>
+    <script type="text/javascript">
+        TTT.Init({ PublisherId: 3140, TagType: 'demoJsEngine', DivId: 'tttAd', Width: 300, Height: 250 });        
+    </script>
+</body>
+</html>
